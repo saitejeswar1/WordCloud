@@ -7,7 +7,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
 
-st.title('Simple Streamlit App')
+st.title('WordCloud Streamlit App')
 
 st.markdown("""
 This app performs Word Cloud
@@ -19,7 +19,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 #file_bytes = st.file_uploader("Upload a file", type="csv")
 
 #if file_bytes is not None:
-st.sidebar.header("Select Link")
+st.sidebar.header("Select Link") # change the links below with your own websites
 links = ["https://annabyang.medium.com/whats-going-on-the-silicon-valley-bank-collapse-vs-the-2008-financial-crisis-8b5539995e63",
         "https://annabyang.medium.com/why-writers-should-care-about-ai-art-b859192776c9",
         "https://thisisyouth.medium.com/chatgpt-wont-kill-writing-but-it-will-kill-content-d3d2fe3af3cd",
